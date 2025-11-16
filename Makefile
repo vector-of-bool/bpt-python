@@ -15,6 +15,9 @@ test:
 typecheck:
 	pyright
 
+uv.check:
+	uv run $(MAKE) lint format-check
+
 build: lint format-check
 	uv build
 
