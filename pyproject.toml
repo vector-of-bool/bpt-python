@@ -1,7 +1,7 @@
 [project]
-name = "bpt"
-version = "0.0.2"
-description = "A zero-configuration C & C++ build and package tool"
+name = "bpt-py"
+version = "0.0.3"
+description = "A zero-configuration C & C++ build and package tool (Python implementation)"
 readme = "README.md"
 authors = [{ name = "vector-of-bool", email = "vectorofbool@gmail.com" }]
 requires-python = ">=3.13"
