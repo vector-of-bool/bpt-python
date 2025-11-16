@@ -30,6 +30,7 @@ publish-url = "https://test.pypi.org/legacy/"
 explicit = true
 
 [tool.uv.build-backend]
+module-name = "bpt"
 source-exclude = ["**/*_test.py"]
 
 [tool.pyright]
