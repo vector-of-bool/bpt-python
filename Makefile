@@ -15,8 +15,17 @@ test:
 typecheck:
 	pyright
 
+uv.check:
+	uv run $(MAKE) lint format-check
+
 build: lint format-check
 	uv build
+
+bump-minor:
+	uv version --bump minor
+
+bump-patch:
+	uv version --bump patch
 
 clean:
 	rm -vrf -- dist/ .pytest_cache/ .ruff_cache/ $(shell find -name "__pycache__")
