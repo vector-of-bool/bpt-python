@@ -18,6 +18,7 @@ dev = [
 
 [project.scripts]
 bpt = "bpt.main:start"
+bpt-py = "bpt.main:start"
 
 [build-system]
 requires = ["uv_build>=0.9.8,<0.10.0"]
