@@ -1,6 +1,6 @@
 [project]
 name = "bpt"
-version = "0.0.1"
+version = "0.0.2"
 description = "A zero-configuration C & C++ build and package tool"
 readme = "README.md"
 authors = [{ name = "vector-of-bool", email = "vectorofbool@gmail.com" }]
