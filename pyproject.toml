@@ -1,6 +1,6 @@
 [project]
 name = "bpt-py"
-version = "0.0.3"
+version = "0.0.4"
 description = "A zero-configuration C & C++ build and package tool (Python implementation)"
 readme = "README.md"
 authors = [{ name = "vector-of-bool", email = "vectorofbool@gmail.com" }]
@@ -30,6 +30,7 @@ publish-url = "https://test.pypi.org/legacy/"
 explicit = true
 
 [tool.uv.build-backend]
+module-name = "bpt"
 source-exclude = ["**/*_test.py"]
 
 [tool.pyright]
